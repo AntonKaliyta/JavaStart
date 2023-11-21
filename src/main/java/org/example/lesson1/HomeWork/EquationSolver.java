@@ -1,10 +1,12 @@
 package org.example.lesson1.HomeWork;
+import java.lang.Integer;
 
 public class EquationSolver {
     public static void main(String[] args) {
         for (int q = 0; q <= 9; q++) {
             for (int w = 0; w <= 9; w++) {
-                String equation = q + "?" + " + " + "?" + w + " = " + (q + w);
+                int e = 69;
+                String equation = q + "?" + " + " + "?" + w + " = " + e;
                 if (isValidEquation(equation)) {
                     System.out.println("Решение: " + equation);
                     return;
